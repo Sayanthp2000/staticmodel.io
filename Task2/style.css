@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    width: 100% ;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffffff;
+}
+.navlogo{
+    width: 113px;
+    height: 50px;
+}
+.logo{
+
+     width: 100%;
+     height: 50px;
+     background-repeat: no-repeat;
+     background-size: 100px;
+     position: relative;
+     top: 14px;
+     left: 4px;
+    
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.loc-tag{
+    display: flex;
+}
+.add1{
+    margin-left: 15px;
+    color: #cccccc;
+    font-size: 0.85rem ;
+}
+.add2{
+    margin-left: 5px;
+    font-size: 1rem ;
+}
+.nav-searchbar{
+    display: flex;
+    width: 600px;
+    height: 40px;
+}
+.search-select{
+    color: black;
+    background-color: #f3f3f3;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.search-select:hover{
+    background-color: #d4d5e2;
+    
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ffa200;
+    border: none;
+    border-top-right-radius: 0.25rem ;
+    border-bottom-right-radius: 0.25rem ;
+    font-size: 1.2rem ;
+    
+}
+.search-icon:hover{
+    background-color:#ff8800 ;
+}
+.search-input{
+    border: none;
+    font-size: 1rem;
+    width: 100%;
+    background-image:  url( "lens-icon.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 500px;
+}
+.icon{
+    color: #0F1111;
+}
+
+span {
+    font-size: 0.7rem ;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 800;
+}
+.nav-cart i{
+    font-size: 25px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 800;
+}
+.panel{
+    height: 40px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+.panel-ops p {
+    height: 40px;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.panel-all{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.panel-ops{
+    width: 70%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.hero-section{
+    background-image: url("main\ img.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+a{
+    text-decoration: none;
+}
+.hero-msg{
+    width: 1185px;
+    height: 40px;
+    background-color: #f5f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 95px;
+}
+.hero-msg p{
+    color: #0F1111;
+}
+.atag{
+    color: #007185;
+    font-size: 0.9rem;
+}
+.atag:hover{
+    color: #ffa200;
+    text-decoration: underline;
+}
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: #ffffff;
+    color: #0F1111;
+    padding: 20px 0px ;
+    margin-top: 10px;
+    
+    
+}
+.shoping-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box-img{
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-top: 2rem;
+
+}
+
+#pic1{
+    background-size: 140px;
+    position: relative;
+    left: -41px;
+    top: 20px;
+}
+.box-content{
+    margin-left: 1rem;
+    overflow: hidden;
+    height: 400px;
+}
+
+#pic2{
+    background-size: 140px;
+    position: relative;
+    top: -316px;
+    left: 102px;
+}
+#pic3{
+    background-size: 140px;
+    position: relative;
+    top: -490px;
+    left: -16px;
+    
+}
+#pic4{
+    background-size: 140px;
+    position: relative;
+    top: -826px;
+    left: 109px;
+}
+.box a{
+    color:#007185; 
+    position: relative;
+    bottom: 32px;
+    left: 28px;
+}
+.box a:hover{
+    text-decoration: underline;
+    color: #ffa200 ;
+}
+#pic5{
+    background-size: 235px;
+    position: relative;
+    top: 51px;
+    left: -4px;
+}
+#pic6{
+    background-size: 235px;
+    position: relative;
+    top: 51px;
+    left: -4px;
+}
+#pic7{
+    background-size: 114px;
+    position: relative;
+    top: 38px;
+    left: -10px;
+}
+#pic8{
+    background-size: 112px;
+    position: relative;
+    top: -294px;
+    left: 129px; 
+}
+#pic9{
+    background-size: 114px;
+    position: relative;
+    top: -497px;
+    left: -10px; 
+}
+#pic10{
+    background-size: 112px;
+    position: relative;
+    top: -828px;
+    left: 129px; 
+}
+#pic11{
+    background-size: 235px;
+    position: relative;
+    top: 51px;
+    left: -4px;
+}
+#pic12{
+    background-size: 112px;
+    position: relative;
+    top: 46px;
+    left: 1px;
+}
+#pic13{
+    background-size: 112px;
+    position: relative;
+    top: -285px;
+    left: 132px;
+}
+#pic14{
+    background-size: 112px;
+    position: relative;
+    top: -486px;
+
+}
+#pic15{
+    background-size: 112px;
+    position: relative;
+    top: -818px;
+    left: 129px;
+}
+#pic16{
+    background-size: 235px;
+    position: relative;
+    top: 51px;
+    left: -4px;
+}
+#pic17{
+    background-size: 235px;
+    position: relative;
+    top: 51px;
+    left: -4px;
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    color: #ffffff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #232f3e;
+    color: #ffffff;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul {
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+ul a {
+    margin: 17px;
+    font-size: 0.85rem;
+    display: block;
+    color: #dddddd;
+}
+ul a:hover{
+    text-decoration: underline;
+}
+.para{
+    margin-left: 18px;
+}
+.foot-panel3{
+    background-color: #232f3e;
+    height: 70px;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("kindpng_172246.png");
+    width: 100px;
+}
+.foot-panel4{
+    background-color: #131A22;
+    height: 60px;
+    font-size: 0.7rem;
+    color: #dddddd;
+    text-align: center;
+
+}
+.pages{
+    padding-top: 10px;
+}
+.copyright{
+    padding-top: 8px;
+}
+a{
+    margin-left: 10px;
+}
+
+
